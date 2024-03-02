@@ -24,7 +24,7 @@ public class ChatGptService {
 	@Autowired
 	private RestTemplate template;
 
-	public Object chat(String prompt) {
+	public ChatGptResponse chat(String prompt) {
 		
 		logger.info("Starting prompt");
 		
