@@ -9,7 +9,7 @@ public class ChatGptResponse implements Serializable {
 	
 	private List<Choice> choices;
 
-	public ChatGptResponse() {}
+	public ChatGptResponse() { }
 
 	public List<Choice> getChoices() {
 		return choices;
